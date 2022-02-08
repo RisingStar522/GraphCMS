@@ -1,0 +1,39 @@
+{
+  "name": "vinylbase",
+  "url": "https://github.com/GraphCMS/exmple_01_nextjs_apollo.git",
+  "version": "0.0.2",
+  "description": "Example app using Next, Apollo and GraphCMS",
+  "scripts": {
+    "dev": "node server.js",
+    "next": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "GraphCMS",
+  "license": "ISC",
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "**/node_modules/**"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "prop-types": "^15.5.10",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "apollo-client-preset": "^1.0.1",
+    "express": "^4.15.3",
+    "graphql": "^0.11.7",
+    "graphql-anywhere": "^4.0.0",
+    "graphql-tag": "^2.5.0",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^4.1.4",
+    "react": "^16.0.0",
+    "react-apollo": "^2.0.0",
+    "react-dom": "^16.0.0",
+    "react-markdown": "^2.5.0",
+    "react-star-rating-component": "1.2.4"
+  }
+}
